@@ -43,7 +43,7 @@ app.get('/:month/:day/:year', function(req, res) {
 });
 
 app.get('/:stamp', function(req, res) {
-  var date = new Date(req.params.stamp * 1000).toLocaleTimeString('en-us', options = {
+  var date = new Date(req.params.stamp * 1000).toLocaleTimeString('en-us', {
     weekday: "long",
     year: "numeric",
     month: "long",
