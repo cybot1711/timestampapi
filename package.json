@@ -7,8 +7,11 @@
   "scripts" : {
     "start": "node server.js"
   },
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Jahil Khalfe <jahilgk@gmail>",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "4.6.1"
   }
 }
