@@ -4,12 +4,13 @@
   "description": "An API to check timestamps",
   "main": "server.js",
   "repository": "",
-  "scripts" : {
+  "scripts": {
     "start": "node server.js"
   },
   "author": "Jahil Khalfe <jahilgk@gmail>",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
   },
   "engines": {
     "node": "4.6.1"
