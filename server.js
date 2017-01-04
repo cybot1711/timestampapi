@@ -1,6 +1,7 @@
 //
 // # SimpleServer
 //
+var port = process.env.PORT || 8080;
 
 var express = require('express'),
   app = express(),
@@ -67,6 +68,6 @@ app.get('/:stamp', function(req, res) {
 
 })
 
-app.listen(8080, function() {
+app.listen(port, function() {
   console.log('Example app listening on port 8080!')
 });
